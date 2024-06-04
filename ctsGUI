@@ -40,3 +40,175 @@ madeby.TextColor3 = Color3.fromRGB(93, 222, 173)
 madeby.TextSize = 14.000
 
 -- end of watermarking properties
+
+---  UI Tab Properties 
+
+local UIToggle = Instance.new("TextButton")
+local UIToggle_2 = Instance.new("TextButton")
+local UIToggle_3 = Instance.new("TextButton")
+local UIToggle_4 = Instance.new("TextButton")
+
+-- ButtonCloseFunc Properties:
+
+UIToggle.Name = "UIToggle"
+UIToggle.Parent = game.StarterGui.ScreenGui
+UIToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UIToggle.BackgroundTransparency = 1.000
+UIToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle.BorderSizePixel = 0
+UIToggle.Position = UDim2.new(0.304780871, 0, 0.113168724, 0)
+UIToggle.Size = UDim2.new(0, 74, 0, 13)
+UIToggle.Font = Enum.Font.SourceSans
+UIToggle.Text = "-"
+UIToggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle.TextSize = 14.000
+
+UIToggle_2.Name = "UIToggle"
+UIToggle_2.Parent = game.StarterGui.ScreenGui
+UIToggle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UIToggle_2.BackgroundTransparency = 1.000
+UIToggle_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_2.BorderSizePixel = 0
+UIToggle_2.Position = UDim2.new(0.77888447, 0, 0.113168724, 0)
+UIToggle_2.Size = UDim2.new(0, 74, 0, 13)
+UIToggle_2.Font = Enum.Font.SourceSans
+UIToggle_2.Text = "-"
+UIToggle_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_2.TextSize = 14.000
+
+UIToggle_3.Name = "UIToggle"
+UIToggle_3.Parent = game.StarterGui.ScreenGui
+UIToggle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UIToggle_3.BackgroundTransparency = 1.000
+UIToggle_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_3.BorderSizePixel = 0
+UIToggle_3.Position = UDim2.new(0.0776892453, 0, 0.113168724, 0)
+UIToggle_3.Size = UDim2.new(0, 74, 0, 13)
+UIToggle_3.Font = Enum.Font.SourceSans
+UIToggle_3.Text = "-"
+UIToggle_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_3.TextSize = 14.000
+
+UIToggle_4.Name = "UIToggle"
+UIToggle_4.Parent = game.StarterGui.ScreenGui
+UIToggle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UIToggle_4.BackgroundTransparency = 1.000
+UIToggle_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_4.BorderSizePixel = 0
+UIToggle_4.Position = UDim2.new(0.535856545, 0, 0.113168724, 0)
+UIToggle_4.Size = UDim2.new(0, 74, 0, 13)
+UIToggle_4.Font = Enum.Font.SourceSans
+UIToggle_4.Text = "-"
+UIToggle_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+UIToggle_4.TextSize = 14.000
+
+-- Scripts:
+
+local function OAJUTB_fake_script() -- UIToggle.LocalScript 
+	local script = Instance.new('LocalScript', UIToggle)
+
+	local button = script.Parent
+	local screenGui = button.Parent
+	
+	-- Get reference to the UI element you want to toggle
+	local uiElement = screenGui:WaitForChild("PlayerTab") -- Change "Frame" to the name of your UI element
+	
+	local isVisible = true
+	
+	button.MouseButton1Click:Connect(function()
+		-- Toggle visibility
+		isVisible = not isVisible
+		uiElement.Visible = isVisible
+	
+		-- Change button text based on visibility
+		if isVisible then
+			button.Text = "-"
+		else
+			button.Text = "+"
+		end
+	end)
+	
+end
+coroutine.wrap(OAJUTB_fake_script)()
+local function PHZAMWG_fake_script() -- UIToggle_2.LocalScript 
+	local script = Instance.new('LocalScript', UIToggle_2)
+
+	local button = script.Parent
+	local screenGui = button.Parent
+	
+	-- Get reference to the UI element you want to toggle
+	local uiElement = screenGui:WaitForChild("WorldTab") -- Change "Frame" to the name of your UI element
+	
+	local isVisible = true
+	
+	button.MouseButton1Click:Connect(function()
+		-- Toggle visibility
+		isVisible = not isVisible
+		uiElement.Visible = isVisible
+	
+		-- Change button text based on visibility
+		if isVisible then
+			button.Text = "-"
+		else
+			button.Text = "+"
+		end
+	end)
+	
+end
+coroutine.wrap(PHZAMWG_fake_script)()
+local function RDAX_fake_script() -- UIToggle_3.LocalScript 
+	local script = Instance.new('LocalScript', UIToggle_3)
+
+	local button = script.Parent
+	local screenGui = button.Parent
+	
+	-- Get reference to the UI element you want to toggle
+	local uiElement = screenGui:WaitForChild("CombatTab") -- Change "Frame" to the name of your UI element
+	
+	local isVisible = true
+	
+	button.MouseButton1Click:Connect(function()
+		-- Toggle visibility
+		isVisible = not isVisible
+		uiElement.Visible = isVisible
+	
+		-- Change button text based on visibility
+		if isVisible then
+			button.Text = "-"
+		else
+			button.Text = "+"
+		end
+	end)
+	
+	
+end
+coroutine.wrap(RDAX_fake_script)()
+local function QHJYUZG_fake_script() -- UIToggle_4.LocalScript 
+	local script = Instance.new('LocalScript', UIToggle_4)
+
+	local button = script.Parent
+	local screenGui = button.Parent
+	
+	-- Get reference to the UI element you want to toggle
+	local uiElement = screenGui:WaitForChild("MiscTab") -- Change "Frame" to the name of your UI element
+	
+	local isVisible = true
+	
+	button.MouseButton1Click:Connect(function()
+		-- Toggle visibility
+		isVisible = not isVisible
+		uiElement.Visible = isVisible
+	
+		-- Change button text based on visibility
+		if isVisible then
+			button.Text = "-"
+		else
+			button.Text = "+"
+		end
+	end)
+	
+end
+coroutine.wrap(QHJYUZG_fake_script)()
+
+
+
