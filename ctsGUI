@@ -35,7 +35,7 @@ madeby.BorderSizePixel = 0
 madeby.Position = UDim2.new(0, 0, 0.944444418, 0)
 madeby.Size = UDim2.new(0, 88, 0, 27)
 madeby.Font = Enum.Font.Unknown
-madeby.Text = "made by yza9000"
+madeby.Text = "made by delzqa"
 madeby.TextColor3 = Color3.fromRGB(93, 222, 173)
 madeby.TextSize = 14.000
 
