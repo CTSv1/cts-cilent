@@ -2,4 +2,5 @@
 # MADE BY DELZQA
 #  SUPPORTED GAMES ---
 Bedwars 
+
 other games coming soon
