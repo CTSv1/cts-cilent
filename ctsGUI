@@ -1,4 +1,4 @@
-print("cts v1 is for testing and pre releases ONLY ")
+print("cts v1 gui lib, beta testing")
 print("Warning: Using this cts version might result in bugs and non functional code")
 print("Initiating cts v1")
 
