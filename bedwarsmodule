@@ -1,0 +1,16 @@
+local watermarking = Instance.new("TextLabel")
+
+watermarking.Name = "watermarking"
+watermarking.Parent = game.StarterGui.ScreenGui
+watermarking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+watermarking.BackgroundTransparency = 1.000
+watermarking.BorderColor3 = Color3.fromRGB(0, 0, 0)
+watermarking.BorderSizePixel = 0
+watermarking.Position = UDim2.new(0.845160902, 0, -0.0329218097, 0)
+watermarking.Rotation = -0.030
+watermarking.Size = UDim2.new(0, 200, 0, 50)
+watermarking.Font = Enum.Font.Unknown
+watermarking.Text = "cts cilent v1"
+watermarking.TextColor3 = Color3.fromRGB(0, 170, 255)
+watermarking.TextSize = 25.000
+watermarking.TextStrokeTransparency = 2.000
