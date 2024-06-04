@@ -1,4 +1,5 @@
 # cts-cilent BETA - https://discord.gg/ESscg46U33 
 # MADE BY DELZQA
-# Bedwars 
+#  SUPPORTED GAMES ---
+Bedwars 
 other games coming soon
