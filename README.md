@@ -1,6 +1,8 @@
-# cts-cilent BETA - https://discord.gg/ESscg46U33 
-# MADE BY DELZQA
+# Vulnera BETA -  
+# MADE BY DELZQA, YZA9000 !
 #  SUPPORTED GAMES ---
 Bedwars 
+
+mm2
 
 other games coming soon
